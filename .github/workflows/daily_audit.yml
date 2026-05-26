@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 3 * * *'   # 3am UTC = 6am EAT (UTC+3)
   workflow_dispatch:        # allows manual trigger from GitHub UI
+  push:
+    branches: [master]      # temporary: fires on push to test
 
 jobs:
   audit:
