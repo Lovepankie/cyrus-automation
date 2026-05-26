@@ -1,0 +1,7 @@
+merged_output_audit/
+__pycache__/
+*.pyc
+.venv/
+.last_merged_file
+*.xlsx
+*.csv
